@@ -1,9 +1,9 @@
 include(vcpkg_common_functions)
 set(BZIP2_VERSION 1.0.6)
 vcpkg_download_distfile(ARCHIVE
-    URLS "https://github.com/past-due/bzip2-mirror/releases/download/v${BZIP2_VERSION}/bzip2-${BZIP2_VERSION}.tar.gz"
-    FILENAME "bzip2-${BZIP2_VERSION}.tar.gz"
-    SHA512 00ace5438cfa0c577e5f578d8a808613187eff5217c35164ffe044fbafdfec9e98f4192c02a7d67e01e5a5ccced630583ad1003c37697219b0f147343a3fdd12)
+    URLS "https://github.com/KomodoPlatform/bzip2-mirror/archive/v1.0.6.tar.gz"
+    FILENAME "v1.0.6.tar.gz"
+    SHA512 c3d904f65f90aa34dbdd9e27f0ffa40e47efce2f38e3524905b70b281d0ab4e1480f8d18f1bfde859e7f64534246b89d09b634420ea7f22612597ec8caa86ed2)
     
 vcpkg_extract_source_archive_ex(
     OUT_SOURCE_PATH SOURCE_PATH
